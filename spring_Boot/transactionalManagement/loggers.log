@@ -1,0 +1,25 @@
+2024-04-28T23:00:49.940+05:30  INFO 4464 --- [transactionalManagement] [main] e.t.t.TransactionalManagementApplication : Starting TransactionalManagementApplication using Java 19.0.2 with PID 4464 (C:\java Programming\Java_Programming\spring_Boot\transactionalManagement\target\classes started by rohit in C:\java Programming\Java_Programming\spring_Boot\transactionalManagement)
+2024-04-28T23:00:49.946+05:30  INFO 4464 --- [transactionalManagement] [main] e.t.t.TransactionalManagementApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-28T23:00:50.904+05:30  INFO 4464 --- [transactionalManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-28T23:00:51.011+05:30  INFO 4464 --- [transactionalManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2024-04-28T23:00:51.916+05:30  INFO 4464 --- [transactionalManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-28T23:00:51.931+05:30  INFO 4464 --- [transactionalManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-28T23:00:51.932+05:30  INFO 4464 --- [transactionalManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-28T23:00:51.998+05:30  INFO 4464 --- [transactionalManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-28T23:00:51.998+05:30  INFO 4464 --- [transactionalManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1951 ms
+2024-04-28T23:00:52.215+05:30  INFO 4464 --- [transactionalManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-28T23:00:52.277+05:30  INFO 4464 --- [transactionalManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-28T23:00:52.318+05:30  INFO 4464 --- [transactionalManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-28T23:00:52.535+05:30  INFO 4464 --- [transactionalManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-28T23:00:52.559+05:30  INFO 4464 --- [transactionalManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-28T23:00:52.740+05:30  INFO 4464 --- [transactionalManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5463f035
+2024-04-28T23:00:52.745+05:30  INFO 4464 --- [transactionalManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-28T23:00:52.793+05:30  WARN 4464 --- [transactionalManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-28T23:00:53.792+05:30  INFO 4464 --- [transactionalManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-28T23:00:53.822+05:30  INFO 4464 --- [transactionalManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-28T23:00:54.145+05:30  WARN 4464 --- [transactionalManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-28T23:00:54.578+05:30  INFO 4464 --- [transactionalManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-28T23:00:54.598+05:30  INFO 4464 --- [transactionalManagement] [main] e.t.t.TransactionalManagementApplication : Started TransactionalManagementApplication in 5.221 seconds (process running for 5.627)
+2024-04-28T23:03:58.816+05:30  INFO 4464 --- [transactionalManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-28T23:03:58.819+05:30  INFO 4464 --- [transactionalManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-28T23:03:58.858+05:30  INFO 4464 --- [transactionalManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
