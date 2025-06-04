@@ -9,6 +9,7 @@ public class fibonnaciSeries {
        Scanner sc=new Scanner(System.in);
        int num=sc.nextInt();
        int n1=0;
+       int n4=0;
        int n2=1;
        int n3;
        for (int i=0;i<num;i++){
