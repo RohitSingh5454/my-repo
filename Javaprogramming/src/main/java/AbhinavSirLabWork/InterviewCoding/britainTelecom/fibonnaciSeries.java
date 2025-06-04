@@ -7,6 +7,7 @@ public class fibonnaciSeries {
        int num=sc.nextInt();
        int n1=0;
        int nn=9;
+       int kk=99;
        int n2=1;
        int n3;
        for (int i=0;i<num;i++){
